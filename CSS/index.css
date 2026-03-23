@@ -1,0 +1,405 @@
+
+   /* Base size (phones first) */
+.fontFlexSize {
+  font-size: 0.80rem;
+}
+
+/* Small devices (576px and up) */
+@media (min-width: 576px) {
+  .fontFlexSize {
+    font-size: 0.95rem;
+  }
+}
+
+/* Medium devices (768px and up) */
+@media (min-width: 768px) {
+  .fontFlexSize {
+    font-size: 1.05rem;
+  }
+}
+
+/* Large devices (992px and up) */
+@media (min-width: 992px) {
+  .fontFlexSize {
+    font-size: 0.95rem;
+  }
+}
+
+/* Extra large (1200px and up) */
+@media (min-width: 1200px) {
+  .fontFlexSize {
+    font-size: 1.00rem;
+  }
+}
+
+/* Extra extra large (1400px and up) */
+@media (min-width: 1400px) {
+  .fontFlexSize {
+    font-size: 1.00rem;
+  }
+@media (min-width: 992px) {
+  .indexflex-L {
+    height: 92vh; 
+  }
+}
+}
+@media (min-width: 1200px) {
+  .indexflex-L {
+    max-height: 300hv;
+  }
+}
+.jobtext{
+  font-size: 15px;   
+  } 
+@media (min-width: 900px) {
+  .jobtext {
+    font-size: 25px;
+  }
+}
+
+  
+.eldenimg{
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../img/eldenring/index-elden-T.jpg');
+  min-height:50vh;
+  width:100vw;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;  
+}
+@media (min-width: 770px) {
+.eldenimg{
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../img/eldenring/index-elden-T.jpg');
+  min-height:100vh;
+  width:100vw;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;  
+  }
+}
+  
+.bloodimg{
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../img/bloodborn/index-bloodborne-T.jpg');
+  min-height:50vh;
+  width:100vw;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;  
+}
+@media (min-width: 770px) {
+.bloodimg{
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../img/bloodborn/index-bloodborne-T.jpg');
+  min-height:100vh;
+  width:100vw;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;  
+  }
+}
+
+
+
+
+.darkimg{
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../img/darksolus3/dark-t.jpg');
+  min-height:50vh;
+  width:100vw;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;  
+}
+@media (min-width: 770px) {
+.darkimg{
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../img/darksolus3/dark-t.jpg');
+  min-height:100vh;
+  width:100vw;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;  
+  }
+}
+
+
+.armimg{
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../img/ArmoredCoreVIFR/wp13002964.jpg');
+  min-height:50vh;
+  width:100vw;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;  
+}
+@media (min-width: 770px) {
+.armimg{
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../img/ArmoredCoreVIFR/wp13002964.jpg');
+  min-height:100vh;
+  width:100vw;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;  
+  }
+}
+
+
+.sekimg{
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../img/SSDT/a77a115b-34e8-4477-8efa-be953ca07604.png');
+  min-height:50vh;
+  width:100vw;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;  
+}
+@media (min-width: 770px) {
+.sekimg{
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../img/SSDT/a77a115b-34e8-4477-8efa-be953ca07604.png');
+  height:100vh;
+  width:100vw;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;  
+  }
+}
+
+
+
+
+.gamelogo{
+
+  background-repeat: no-repeat;
+  display: flex;  
+}
+
+.infobox{
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0.5, 0.2);
+}
+
+.icon-button{
+  padding-block-start: 0px;
+}
+*
+{
+font-family: Agency FB, sans-serif;
+}
+
+.icon-button{
+  background-color:#040216;
+  color:#e4e8ed;
+  padding:6px 12px;
+  gap:8px;
+}
+
+.icon-img{
+  width:20px;
+  height:auto;
+  flex-shrink:0;
+}
+#er-js-img-change{
+  background-image: url('../img/eldenring/elpnring.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  width: 60vw;
+  height: 25vh;    
+}
+/* Small devices (576px and up) */
+@media (min-width: 700px) {
+#er-js-img-change {
+  width: 40vw;
+  height: 25vh;
+  }
+}
+@media (min-width: 1000px) {
+#er-js-img-change {
+  height: 28vh;
+  width: 24vw;
+  }
+}
+#bd-js-img-change{
+  background-image: url('../img/bloodborn/bb-img.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  width: 60vw;
+  height: 25vh;    
+}
+/* Small devices (576px and up) */
+@media (min-width: 700px) {
+#bd-js-img-change {
+  width: 40vw;
+  height: 25vh;
+  }
+}
+@media (min-width: 1000px) {
+#bd-js-img-change {
+  height: 28vh;
+  width: 24vw;
+  }
+}
+#arm-js-img-change{
+  background-image: url('../img/ArmoredCoreVIFR/con-top.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  width: 60vw;
+  height: 25vh;    
+}
+/* Small devices (576px and up) */
+@media (min-width: 700px) {
+#arm-js-img-change {
+  width: 40vw;
+  height: 25vh;
+  }
+}
+@media (min-width: 1000px) {
+#arm-js-img-change {
+  height: 28vh;
+  width: 24vw;
+  }
+}
+
+#dark-js-img-change{
+  background-image: url('../img/darksolus3/capsule_616x353.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  width: 60vw;
+  height: 25vh;    
+}
+/* Small devices (576px and up) */
+@media (min-width: 700px) {
+#dark-js-img-change {
+  width: 40vw;
+  height: 25vh;
+  }
+}
+@media (min-width: 1000px) {
+#dark-js-img-change {
+  height: 28vh;
+  width: 24vw;
+  }
+}
+
+
+#ssdt-js-img-change{
+  background-image: url('../img/SSDT/capsule_616x353.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  width: 60vw;
+  height: 25vh;    
+}
+/* Small devices (576px and up) */
+@media (min-width: 700px) {
+#ssdt-js-img-change {
+  width: 40vw;
+  height: 25vh;
+  }
+}
+@media (min-width: 1000px) {
+#ssdt-js-img-change {
+  height: 28vh;
+  width: 24vw;
+  }
+}
+
+
+
+
+.js-carousel-control-back{
+  background-color: rgba(0, 0, 0, 0.0);
+  border-color: rgba(0, 0, 0, 0.0);
+}
+.carousel-pading{
+  padding: 0 0px 100% 0px;
+}
+@media (min-width: 450px){
+.carousel-pading{
+  padding: 0 0px 80% 0px;
+}
+@media (min-width: 550px){
+.carousel-pading{
+  padding: 0 0px 60% 0px;
+}
+}
+@media (min-width: 770px){
+.carousel-pading{
+  padding: 0 0px 0% 0px;
+}
+}
+.game-infobox2 {
+  min-height: 45vh;
+  }
+
+@media (min-width: 770px) {
+.game-infobox2{
+  height:100%;
+  }
+}
+
+.platfrom-h{
+  height: 2vh;
+  }
+
+@media (min-width: 770px) {
+.platfrom-h{
+
+  height:9vh;
+  }
+}
+.platfrom-t{
+  font-size: 0.90rem;
+  }
+
+@media (min-width: 770px) {
+.platfrom-t{
+   font-size: 1.30rem;
+  }
+}
+.gamelist-t{
+  font-size: 0.90rem;
+  }
+
+@media (min-width: 770px) {
+.gamelist-t{
+   font-size: 0.90rem;
+  }
+}
+.navtext{
+  font-size: 1.40rem;
+}
+.game-infobox {
+  height: auto;
+  }
+
+@media (min-width: 770px) {
+.game-infobox{
+  height:100%;
+  }
+}
+
+
+
+@media (min-width: 1200px) {
+  .fontFlexSize2 {
+    font-size: 1.97rem;
+  }
+}
+
+/* Extra extra large (1400px and up) */
+@media (min-width: 1400px) {
+  .fontFlexSize2 {
+    font-size: 1.99rem;
+  }
